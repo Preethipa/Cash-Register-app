@@ -7,25 +7,59 @@
     <title>Cash register manager</title>
     <link rel="stylesheet" href="./style.css"/>
 
+    <style>
+         label{
+            margin: auto;
+            padding: 0.5rem 3.5rem;
+            text-decoration: underline;
+         }
+         input{
+            margin: auto;
+            padding: 0.5rem 3.5rem;
+            background-color: #fef3c7;
+         }
+         button{
+            margin:auto;
+            font-weight: bolder;
+            padding: 0.5rem 2rem;
+            font-size: large;
+            margin-top: 15px;
+            background-color:#ffedd5;
+            font-family: 'Source Sans Pro', sans-serif;
+         }
+         table,tr,td{
+            margin:auto;
+            background-color: #fef3c7;
+            border:1px solid black;
+            padding: 0rem 1.2rem;
+            border-collapse: collapse;
+         }
+         caption{
+            text-decoration: underline;
+         }
+       
+    </style>
+
 </head>
 <body>
     <div class="container">
 
-        <h1 class="heading">Cash Register</h1>
+        <h1 class="heading">Cash Register Manager</h1>
         <p class= "paragraph">
             Enter the bill amount and cash given by the customer and 
             know minimum number of notes to return
         </p>
     
         <label for="bill-amount">Bill Amount:</label>
-        <input  id="bill-amount" type="text"/>
+        <input id="bill-amount" type="text"/>
 
         <label for="cash-given"> Cash Given:</label>
-        <input  id="cash-given" type="text"/>
+        <input id="cash-given" type="text"/>
         <button id="check-button">Check</button>
         <p id="error-message"></p>
-     <table class="change-table">
 
+        <table class="change-table">
+             
         <caption>
             Return Change
         </caption>
