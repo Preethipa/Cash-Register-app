@@ -6,12 +6,24 @@ This will help the user by telling how they return the change to customer with m
 
 The below text is to explain my project detials.
 
+Problem Statement:
+Your program has currencies of Rs. 1, 5, 10, 20, 100, 500, 2000.
+Your user enters a bill amount say Rs. 243.
+Your user then enters cash given say Rs. 2000.
+Now, help the user by telling how can he/she return the change to the customer with a minimum number of notes?
+
 This app built with VanillaJS by using Visual Studio Code.
-First, select template for ReactJS.
+First, create three seperate file for app.js, html file, and style file.
 
 In program,
 
-Step-1: create object for place and rating.
-Step-2: select genre by using useState() method.
-Step-4: select place and rating by using map method
-Step-5: Print an list.
+Step-1: create input for bill amount and cash given.
+Step-2: create table for return change.
+Step-3: using qureySelector to call a input.
+Step-4: add event listerner.
+Step-5: check:
+          amountToBeReturened = cashGiven - billamount
+Step-6: Loop:
+          number of notes = Math.trunc( amountToBeReturened / numberOfNotes.
+SStep-7:Display output
+
