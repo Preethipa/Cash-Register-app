@@ -25,5 +25,5 @@ Step-5: check:
           amountToBeReturened = cashGiven - billamount
 Step-6: Loop:
           number of notes = Math.trunc( amountToBeReturened / numberOfNotes.
-SStep-7:Display output
+Step-7:Display output
 
